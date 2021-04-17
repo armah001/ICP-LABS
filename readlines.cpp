@@ -1,7 +1,7 @@
 #include <iostream>
 #include "stabbingLines.h"
 #include <fstream>
-
+using namespace std;
 void readLines(ifstream& inPutLineFile, Line linesArray[],
 const int MaxLnsSize, int& numLines){
 if (inPutPointFile.is_open()){
